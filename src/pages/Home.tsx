@@ -1,9 +1,13 @@
 import Options from '../components/Options.tsx';
 
-export default function Home() {
+interface HomeProps {
+  setCartItems: React.Dispatch<React.SetStateAction<string[]>>;
+}
+
+export default function Home({ setCartItems }: HomeProps) {
   return (
     <div className="page">
-        <Options />
+        <Options setCartItems={setCartItems} />
     </div>
   );
 }
