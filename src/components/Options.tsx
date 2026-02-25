@@ -7,7 +7,7 @@ interface OptionsProps {
 export default function Options({ setCartItems }: OptionsProps) {
   return (
     <header className="product-card">
-      <img className='worImg' src="./public/worek1.png" alt="worek tu jest" />
+      <img className='worImg' src="worek1.png" alt="worek tu jest" />
       <div className="product-info">
         <p>worek</p>
         <button className="buy-btn" onClick={() => setCartItems(prev => [...prev, 'worek'])}>Kup worek</button>
