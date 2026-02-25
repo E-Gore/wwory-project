@@ -21,7 +21,7 @@ export default function Cart({ cartItems, setCartItems }: CartProps) {
               <button onClick={() => setCartItems(prev => prev.filter((_, j) => j !== i))}>usuń</button>
             </div>
           ))}
-          <a href="#">Check Out!</a>
+          <a href="https://buy.stripe.com/test_cNi3cv9Ngbjj3Bj5Rh3gk00">Check Out!</a>
         </>
       )}
     </div>
