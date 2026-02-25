@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home setCartItems={setCartItems} />} />
           <Route path="/cart" element={<Cart cartItems={cartItems} setCartItems={setCartItems}/>}/>
-          <Route path="/succes" element={<Success />} />
+          <Route path="/success" element={<Success />} />
           <Route path="/cancel" element={<Cancel />} />
         </Routes>
       </main>
