@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import NavBar from './components/NavBar';
-import Success from './pages/Succes';
+import Success from './pages/Success';
 import Cancel from './pages/Cancel';
 
 function App() {
